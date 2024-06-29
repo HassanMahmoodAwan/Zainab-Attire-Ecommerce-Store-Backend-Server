@@ -1,2 +1,23 @@
 # Basic Full stack ECommerce App (MERN)
- Mern Stack App to scale up skill set
+
+## Cloth Selling Store 
+
+
+#### Unstiched Category
+
+- Chicken Kary
+- printed
+- Embrodered
+
+### Stitched Category
+
+- Casual
+- Party Wear
+- Tradtional wear
+
+
+### User
+
+- Register
+- Login
+- current Info
