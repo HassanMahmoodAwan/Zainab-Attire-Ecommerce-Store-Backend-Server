@@ -21,3 +21,8 @@
 - Register
 - Login
 - current Info
+
+
+#### DB Connection
+
+- Using MongoDB and its Compass offline 
