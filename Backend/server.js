@@ -8,8 +8,12 @@ const app = express()
 // ======= middlewares =========
 app.use(express.json())
 app.use('/inventory/stitched', stitchedRoutes)
-app.use('/inventory/stitched', stitchedRoutes)
+app.use('/inventory/unstitched', unstitchedRoutes)
 
+
+app.get('/', (req, res)=>{
+    res.status(200).send('<h1>Zainab Attire Ecommerce Store Backend Server.</h1>')
+})
 
 
 const PORT=process.env.PORT || 3001

@@ -4,10 +4,10 @@ const { allStitchedCloths, getByIdStitchedCloth, partyWear, casualWear, traditio
 const route = express.Router()
 
 route.route('/').get(allStitchedCloths)
-route.route('/').get(getByIdStitchedCloth)
-route.route('/').get(partyWear)
-route.route('/').get(casualWear)
-route.route('/').get(traditionalWear)
+route.route('/partywear').get(partyWear)
+route.route('/casual').get(casualWear)
+route.route('/traditional').get(traditionalWear)
+route.route('/:id').get(getByIdStitchedCloth)
 
 
 module.exports = route

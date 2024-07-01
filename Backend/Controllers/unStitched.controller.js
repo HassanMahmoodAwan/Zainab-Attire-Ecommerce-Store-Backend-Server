@@ -9,15 +9,15 @@ const getByIdUnstitchedCloth = asyncHandler( async(req, res)=>{
 })
 
 const chickKaryWear = asyncHandler( async(req, res)=>{
-    res.status(200).json({msg:`Party Wear Cloths`})
+    res.status(200).json({msg:`ChickenKary Wear Cloths`})
 })
 
 const printedWear = asyncHandler( async(req, res)=>{
-    res.status(200).json({msg:`Casual Wear Cloths`})
+    res.status(200).json({msg:`printed Wear Cloths`})
 })
 
 const embroderedWear = asyncHandler( async(req, res)=>{
-    res.status(200).json({msg:`Traditional Wear Cloths`})
+    res.status(200).json({msg:`Embrodered Wear Cloths`})
 })
 
 module.exports = {allUnstitchedCloths, getByIdUnstitchedCloth, chickKaryWear, printedWear, embroderedWear}
